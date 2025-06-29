@@ -14,7 +14,7 @@ const PORT = 4001;
 
 // CORS (faqat test uchun barcha originlarga ruxsat, productionda keraklisini yozing!)
 app.use(cors({
-  origin: "https://m-front-peach.vercel.app"
+  origin: "https://9cf4-82-215-126-102.ngrok-free.app"
 }));
 // JSON body
 app.use(express.json());
